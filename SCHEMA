@@ -6,21 +6,22 @@
 [Dimentional table]:
 1."concept hierarchy" is the different viewpoint that can analyze the factor.
 2.Its attribute are field of its dimentionaltable.
-[Schema]:1.factor was the center been connected by dimentional table 2.It looks like star.
+[Schema]:1.factor table was the center been connected by dimentional table 2.It looks like star.
 
 #snowflake schema
 [Table]:1.factor table 2.dimentional table
 [Factor table]:It can have messurement.Its attribute is name,value and key of connect to dimentional table
 [Dimentional table]:
-1."concept hierarchy" is the different viewpoint that can analyze the factor.
-2.Its attribute are field of its dimentionaltable.
+1."concept hierarchy" is the different viewpoint that can analyze the factor messurement.
+2.Its attribute are field of dimentionaltable itself.
 [Schema]:
-1.factor was the center been connected by dimentional table
-2.It save the storage but must use more join in SQL  
+1.factor table was the center been connected by dimentional table.
+2.It save the storage cost but must use more join instruction in SQL.  
 
 
 
 
 #fact constellation schema
-IT is use in complex relation 
+IT is use in complex relation.
+called galaxy schema & fact constellation
 
